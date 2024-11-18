@@ -1,0 +1,15 @@
+div .quoteConteiner {
+	width: 400px;
+  margin: auto;
+}
+
+div .quoteblock {
+	background-color: gray;
+	border-radius: 4px;
+	padding: 4px;
+
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+	text-align: justify;
+}
