@@ -22,6 +22,15 @@ body {
 	transition: 0.3s;
 }
 
+.main-page {
+	margin-top: -20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row; 
+}
+
 #main-title {
 	font-size: 60px;
   text-decoration: underline;
