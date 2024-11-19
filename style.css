@@ -11,11 +11,15 @@ body {
 }
 
 .navbar a {
-
+	color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-
+	background-color: hsl(0, 0%, 0%);
+	opacity: 0.8;
+	transition: 0.3s;
 }
 
 #main-title {
