@@ -1,5 +1,19 @@
 body {
-	margin:5%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner {
+	width: 100%;
+	height: auto;
+	padding: auto;
+}
+
+#navbarIcon {
+	width: 40px;
+	padding: 10px;
+	margin-left: -20px;
+	padding-right: 10px;
 }
 
 .navbar ul {
@@ -13,6 +27,7 @@ body {
 .navbar a {
 	color: white;
   font-size: 20px;
+	padding: 24px;
   text-decoration: none;
 }
 
@@ -22,37 +37,35 @@ body {
 	transition: 0.3s;
 }
 
-.main-page {
+.mainPage {
 	margin-top: -20px;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  display: flex;
-  flex-direction: row; 
 }
 
-#main-title {
+#mainTitle {
 	font-size: 60px;
+	margin: 20px;
   text-decoration: underline;
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 5px;
+	font-style: italic;
   font-family: 'Playfair Display', serif;
   src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 }
 
-div .quoteConteiner {
-	width: 400px;
+.quoteConteiner {
+	width: 500px;
   margin: auto;
 }
 
-div .quoteblock {
+.quoteblock {
 	background-color: gray;
 	border-radius: 5px;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 
 	font-size: 20px;
-	font-style: italic;
 	color: white;
 	text-align: center;
 }
