@@ -6,7 +6,6 @@ body {
 #banner {
 	width: 100%;
 	height: auto;
-	padding: auto;
 }
 
 #navbarIcon {
@@ -19,12 +18,27 @@ body {
 .navbar ul {
 	list-style-type: none;
 	background-color: #333333;
-	display: flex;  
+	display: flex;
 	flex-direction: row;
 	align-items: center;
+	margin-top: -4px;
+
+	/*
+		No se porque la entre la navbar y el banner hay un hueco,
+		el margin-top arregla eso pero me gustaria saber que es lo
+		que lo causa para no tener que arreglarlo manualmente y poder
+		evitarme problemas a futuro
+
+	*/
 }
 
 .navbar a {
+	/*
+		Buscar la forma de que el padding de los elementos
+		de la navbar se ajusten  automaticamente para no tener
+		que ajustar el padding manualmente.
+	*/
+
 	color: white;
   font-size: 20px;
 	padding: 24px;
